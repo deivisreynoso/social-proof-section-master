@@ -4,7 +4,11 @@ body{
     font-family: 'Spartan', sans-serif;
 
 }
+.main-container{
+    width: 100vw;
+   // height: 100vh;
 
+}
 //top  content 
 .container-top{
     display: flex;
@@ -147,9 +151,10 @@ body{
 }
 .bg-bottom {
 	position: absolute;
-	top: 125px;
+	top: 6.50em;
     right: 0;
     bottom: 0;
+    z-index: -1;
 }
 
 .attribution,
